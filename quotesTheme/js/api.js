@@ -10,7 +10,7 @@
     }).done(function(data) {
       console.log('123...');
       console.log(data);
-      //   console.log('Get a date - ', data[0].date);
+      console.log('Get a date - ', data[0].date);
       //   alert('Success! Comments are closed for this post.');
     });
   });
