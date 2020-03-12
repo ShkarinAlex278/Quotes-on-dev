@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <h1 class = "the_title"></h1>
 <p class = "the_author"></p>
+<!-- <h2>123... = </h2> -->
 <button class="randomQuote">Click Me!</button>
 
 <!-- <a href="www.facebook.com"><i class="fab fa-facebook-f"> </i>  LIKE</i></a>

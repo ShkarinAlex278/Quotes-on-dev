@@ -53,10 +53,3 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-body {
-  width: 1080px;
-  background: black;
-  font-size: 2em;
-  border: 1px dashed #ffffff;
-  color: white; }

@@ -1,4 +1,6 @@
 <?php
+
+remove_action('shutdown', 'wp_ob_end_flush_all', 1); //My added
 /**
  * Quotes on Dev Theme functions and definitions.
  *
@@ -86,7 +88,10 @@ function red_scripts() {
 	   'wpapi_nonce' => wp_create_nonce( 'wp_rest' )
    ) );
  }
+
  add_action( 'wp_enqueue_scripts', 'red_scripts' );
+
+ //Adds script and stylesheets
  /**
  * Custom WP API modifications.
  */

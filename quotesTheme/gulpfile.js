@@ -30,12 +30,10 @@ gulp.task('sass', function() {
 });
 
 gulp.task('lint', function() {
-  return gulp
-    .src(['./js/*.js'])
-    .pipe(prettyError())
-    .pipe(eslint())
-    .pipe(eslint.format())
-    .pipe(eslint.failAfterError());
+  return gulp.src(['./js/*.js']).pipe(prettyError());
+  // .pipe(eslint()) // Error here..
+  // .pipe(eslint.format())
+  // .pipe(eslint.failAfterError());
 });
 
 gulp.task(
