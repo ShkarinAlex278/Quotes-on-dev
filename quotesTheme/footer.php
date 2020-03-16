@@ -2,7 +2,7 @@
     <div class="site-info">
         <div class="menu-navigation">
             <ul>
-<li><a href="#about"> About </a></li>
+<li><a href="<?php echo get_home_url() . '/about' ;?>"> About </a></li>
 <li><a href="#archives"> Archives </a></li>
 <li><a href="#submit">Submit a Quote </a></ul></li>
         </div>

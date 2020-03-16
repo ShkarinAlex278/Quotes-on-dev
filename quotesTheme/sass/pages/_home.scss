@@ -1,7 +1,8 @@
 body {
   width: 1080px;
   background: black;
-  font-size: 2em;
+  // font-size: 2em;
+  font-size: 1rem;
   border: 1px dashed #ffffff;
   color: white;
 }
@@ -26,6 +27,17 @@ textarea {
 .site-content {
   margin: 4.5rem 175px 1.5rem;
   position: relative;
+  .about {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  p {
+    margin: 5px;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .site-content::before {
