@@ -1,0 +1,21 @@
+footer {
+  background-color: black;
+  border: none;
+}
+
+.site-info {
+  display: flex;
+  flex-direction: rap;
+  margin: 4.5rem 0 3rem;
+  margin: 10px;
+  margin-left: 40%;
+  //   border: none;
+}
+
+a,
+a:visited {
+  color: #0c0;
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: solid 1px white;
+}
