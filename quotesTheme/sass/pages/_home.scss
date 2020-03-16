@@ -15,10 +15,6 @@ textarea {
   font-size: 1rem;
   line-height: 1.5;
 }
-a,
-a:visited {
-  color: #0c0;
-}
 
 .page {
   margin: 0 auto;
@@ -39,7 +35,8 @@ a:visited {
 
 .site-content::after {
   content: '\f10e';
-  right: -175px;
+  right: -125px;
+  // width: 100%;
 }
 
 .site-content::after,
@@ -52,11 +49,11 @@ a:visited {
   top: 0;
 }
 
-// *,
-// ::after,
-// ::before {
-//   box-sizing: inherit;
-// }
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 .my-content {
   margin: 0 auto;
@@ -68,11 +65,15 @@ a:visited {
   }
 }
 
-.title h2 {
-  display: inline;
-  font-size: 1.25rem;
-  font-weight: 400;
-  // margin-bottom: 0px;
+.title {
+  span {
+    margin-left: 20px;
+  }
+  h2 {
+    display: inline;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
 }
 
 button {

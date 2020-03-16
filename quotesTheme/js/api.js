@@ -20,18 +20,16 @@
         const url = data[randomNumber]._qod_quote_source_url;
         console.log(data[randomNumber]._qod_quote_source_url);
         $('#content').html(
-          `<i class="fas fa-quote-left"></i>
-            <span class="merged">
+          ` <span class="merged">
                <div class="my-content">
                     ${content}
                 </div>
                 <div class="title">
                     <h2>
-                    <span>-</span>${title}<a class="entry-title" href="${url}">${source}</a>
+                    <span>- </span>${title}<a class="entry-title" href="${url}">${source}</a>
                     </h2> 
                 </div>
-            </span>
-        <i class="fas fa-quote-right"></i>`
+            </span>`
         );
       })
       .fail(function(data) {
