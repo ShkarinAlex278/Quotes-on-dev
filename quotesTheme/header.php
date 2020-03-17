@@ -9,6 +9,6 @@
 </head>
 <body <?php body_class();?>>
 
-<a href="#content">
+<a href="http://localhost/Quotes/">
     <img class = "logo" src = "<?php echo get_template_directory_uri() . "/PrFileAss/assets/qod-logo.svg"?>)">
 </a>
