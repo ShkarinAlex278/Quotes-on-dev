@@ -18,6 +18,7 @@ function qod_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	// Let WordPress manage the document title.
+
 	add_theme_support( 'title-tag' );
 
 	// This theme uses wp_nav_menu() in one location.
@@ -68,6 +69,7 @@ add_action( 'wp_enqueue_scripts', 'qod_scripts' );
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
 
 /**
  * Custom template tags for this theme.

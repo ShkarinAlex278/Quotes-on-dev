@@ -4,9 +4,12 @@
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-    
+    <div id = "content" class="site-content">
+  
     <h2><?php the_title(); ?></h2>
     <?php the_content(); ?>
+    </div> 
+
     
     <!-- Loop ends -->
     <?php endwhile;?>

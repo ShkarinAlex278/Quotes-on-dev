@@ -168,11 +168,11 @@ a:visited {
   color: #0c0;
   margin-left: 5px; }
 
-ul {
+.menu-navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  ul li {
+  .menu-navigation ul li {
     border-right: solid 1px white;
     padding: 0px;
     margin: 0px;
